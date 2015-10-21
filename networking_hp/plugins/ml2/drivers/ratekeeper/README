@@ -1,0 +1,9 @@
+Neutron ML2 HP Ratekeeper Mechanism Driver
+
+
+Notes:
+
+The initial version of this driver supports rate-limiting TCP and UDP flows.
+
+For more details on Ratekeeper QoS implemenation please refer to:
+http://www.hpl.hp.com/techreports/2010/HPL-2010-151.html

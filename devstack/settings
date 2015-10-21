@@ -1,0 +1,21 @@
+# Devstack settings
+
+# Each service you enable has the following meaning:
+#
+# rk-ml2plugin - Add this config flag for ML2 changes in OpenStack
+#                  Controller for Neutron.
+#
+# rk-agent - Add this config flag for HP Ratekeeper Agent in compute nodes.
+
+# enable_service rk-ml2plugin
+# enable_service rk-agent
+
+# Set in local.conf
+# --------
+
+# Set minimun and maximun rate limits, default is 10GB
+RK_MIN_RATE=${RK_MIN_RATE:-10000}
+RK_MAX_RATE=${RK_MAX_RATE:-10000}
+
+# Set agent polling intervals in seconds
+RK_POLLING_INTERVAL=${RK_POLLING_INTERVAL:-2}
