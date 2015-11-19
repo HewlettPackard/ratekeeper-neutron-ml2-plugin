@@ -50,7 +50,6 @@ can be enabled.
 
 Sample local.conf::
 
-    ```
     [[local|localrc]]
     enable_plugin networking-hp https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
 
@@ -72,7 +71,6 @@ Sample local.conf::
     [ratekeeper]
     default_min_rate=$RK_MIN_RATE
     default_max_rate=$RK_MAX_RATE
-    ```
 
 ## References
 
