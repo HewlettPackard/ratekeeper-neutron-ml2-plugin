@@ -17,7 +17,7 @@ Description: ===================================================
 
         * Documentation: https://wiki.openstack.org/wiki/Neutron/HP_Ratekeeper_Plugin
         * Source:  https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
-        * Bugs: http://bugs.launchpad.net/networking-hp
+        * Bugs:  https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
         * Free software: Apache license
 
 
