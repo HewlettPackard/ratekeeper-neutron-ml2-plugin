@@ -22,5 +22,5 @@ You can download the ratekeeper-kmod from:
 Details
 =======
 
-Please see `README: <https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin/blob/master/devstack/README.md>`_ file for more information.
+Please see `README <https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin/blob/master/devstack/README.md>`_ file for more information.
 
