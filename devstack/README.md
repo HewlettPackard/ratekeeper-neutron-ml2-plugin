@@ -8,9 +8,8 @@ can be enabled.
 
 1. Download DevStack
 
-2. Add this repo as an external repository::
+2. Add this repo as an external repository in local.conf::
 
-    # cat local.conf
     [[local|localrc]]
     enable_plugin networking-hp https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
 
