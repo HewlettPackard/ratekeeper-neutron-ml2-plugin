@@ -10,8 +10,10 @@ can be enabled.
 
 2. Add this repo as an external repository in local.conf::
 
+    ```
     [[local|localrc]]
     enable_plugin networking-hp https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
+    ```
 
 3. Add the following required flags in local.conf to enable the HP Ratekeeper ML2 MechanismDriver::
 
