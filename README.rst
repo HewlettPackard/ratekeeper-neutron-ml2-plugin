@@ -2,8 +2,7 @@
 ratekeeper-neutron-ml2-plugin
 ===============================
 
-devstack-plugin for HP Ratekeeper Neutron plugin integration
-------------------------------------------------------------
+**devstack-plugin for HP Ratekeeper Neutron plugin integration**
 
 Neutron ml2 mechanism driver and agents to enable Bandwidth Guarantees using HP Ratekeeper
 
