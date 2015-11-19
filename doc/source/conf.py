@@ -38,7 +38,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'networking-hp'
-copyright = u'2015, Hewlett-Packard Development Company, L.P.'
+copyright = u'2015, Hewlett Packard Enterprise Development L.P.'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
