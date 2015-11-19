@@ -10,31 +10,30 @@ can be enabled.
 
 2. Add this repo as an external repository::
 
-     > cat local.conf
-     [[local|localrc]]
-     enable_plugin networking-hp https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
-
+    # cat local.conf
+    [[local|localrc]]
+    enable_plugin networking-hp https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
 
 3. Add the following required flags in local.conf to enable the HP Ratekeeper ML2 MechanismDriver::
 
-     Q_ML2_PLUGIN_MECHANISM_DRIVERS=hp_ratekeeper
-     Q_ML2_PLUGIN_EXT_DRIVERS=hp_ratekeeper_ext
+    Q_ML2_PLUGIN_MECHANISM_DRIVERS=hp_ratekeeper
+    Q_ML2_PLUGIN_EXT_DRIVERS=hp_ratekeeper_ext
 
-     enable_service rk-ml2plugin
+    enable_service rk-ml2plugin
 
 5. Add the following required flags in local.conf to enable the HP Ratekeeper agent on compute nodes::
 
-     enable_service rk-agent
+    enable_service rk-agent
 
-6. Optionally add the following lines to specify different default min/max rates (default is 10GB)
+6. Optionally add the following lines to specify different default min/max rates (default is 10GB)::
 
-     RK_MIN_RATE=4000 #4G
-     RK_MAX_RATE=4000 #4G
+    RK_MIN_RATE=4000 #4G
+    RK_MAX_RATE=4000 #4G
 
-     [[post-config|/etc/neutron/plugins/ml2/ml2_conf.ini]]
-     [ratekeeper]
-     default_min_rate=$RK_MIN_RATE
-     default_max_rate=$RK_MAX_RATE
+    [[post-config|/etc/neutron/plugins/ml2/ml2_conf.ini]]
+    [ratekeeper]
+    default_min_rate=$RK_MIN_RATE
+    default_max_rate=$RK_MAX_RATE
 
 7. Read the settings file for more details.
 
