@@ -1,8 +1,9 @@
-## devstack-plugin for HP Ratekeeper Neutron plugin integration
-
 ===============================
 ratekeeper-neutron-ml2-plugin
 ===============================
+
+devstack-plugin for HP Ratekeeper Neutron plugin integration
+------------------------------------------------------------
 
 Neutron ml2 mechanism driver and agents to enable Bandwidth Guarantees using HP Ratekeeper
 
@@ -22,5 +23,5 @@ You can download the ratekeeper-kmod from:
 Details
 =======
 
-Please see .. _README: ../master/devstack/README.md file for more information.
+Please see `README: <https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin/blob/master/devstack/README.md>`_ file for more information.
 
