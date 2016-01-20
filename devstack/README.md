@@ -1,8 +1,8 @@
-## devstack-plugin for HP Ratekeeper Neutron plugin integration
+## devstack-plugin for integration of HPE Ratekeeper with OpenStack Neutron
 
-This devstack external plugin installs the HP plugin library
-so that the Neutron HP Ratekeeper ML2 mechanism driver 
-can be enabled.
+This devstack external plugin installs the HPE plugin library
+to enable the HPE Ratekeeper ML2 mechanism driver  for
+OpenStack Neutron.
 
 ## Enabling in Devstack
 
@@ -15,7 +15,7 @@ can be enabled.
     enable_plugin networking-hp https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
     ```
 
-3. Add the following required flags in local.conf to enable the HP Ratekeeper ML2 MechanismDriver::
+3. Add the following required flags in local.conf to enable the HPE Ratekeeper ML2 MechanismDriver::
 
    ```
     Q_ML2_PLUGIN_MECHANISM_DRIVERS=hp_ratekeeper
@@ -24,7 +24,7 @@ can be enabled.
     enable_service rk-ml2plugin
     ```
 
-5. Add the following required flags in local.conf to enable the HP Ratekeeper agent on compute nodes::
+5. Add the following required flags in local.conf to enable the HPE Ratekeeper agent on compute nodes::
 
    ```
     enable_service rk-agent
