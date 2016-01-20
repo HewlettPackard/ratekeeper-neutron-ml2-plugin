@@ -2,9 +2,9 @@
 ratekeeper-neutron-ml2-plugin
 ===============================
 
-**devstack-plugin for HPE Ratekeeper**
+**devstack-plugin for Ratekeeper plugin integration**
 
-OpenStack Neutron ml2 mechanism driver and agents to enable Bandwidth Guarantees using HPE Ratekeeper
+OpenStack Neutron ml2 mechanism driver and agents to enable bandwidth guarantees using *Ratekeeper*
 
 * Free software: Apache license
 * Source: https://github.com/HewlettPackard/ratekeeper-neutron-ml2-plugin
@@ -14,7 +14,7 @@ OpenStack Neutron ml2 mechanism driver and agents to enable Bandwidth Guarantees
 Requirements
 ============
 
-The ratekeeper kernel module must be installed before this plugin can be enabled.
+The Ratekeeper kernel module must be installed before this plugin can be enabled.
 You can download the ratekeeper-kmod from:
 
 * Source: https://github.com/HewlettPackard/ratekeeper-kmod
