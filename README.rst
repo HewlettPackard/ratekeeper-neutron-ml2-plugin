@@ -14,7 +14,7 @@ OpenStack Neutron ml2 mechanism driver and agents to enable bandwidth guarantees
 Requirements
 ============
 
-The Ratekeeper kernel module must be installed before this plugin can be enabled.
+The *Ratekeeper* kernel module must be installed before this plugin can be enabled.
 You can download the ratekeeper-kmod from:
 
 * Source: https://github.com/HewlettPackard/ratekeeper-kmod
