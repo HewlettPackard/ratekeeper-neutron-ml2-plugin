@@ -2,7 +2,7 @@
 Usage
 ========
 
-To use networking-vsphere in a project::
+To use networking-hp in a project::
 
     import networking_hp
 
